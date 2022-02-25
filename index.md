@@ -5,11 +5,37 @@
 Multivariate Regression Analysis: 
 Multivariate Regression Analysis is when we want to predict a target variable using more than one feature/input variable.
 
+As explained by Brillant.org  Multivariate Regression is a method used to measure the degree at which more than one independent variable (predictors) and more than one dependent variable (responses), are linearly related. The method is broadly used to predict the behavior of the response variables associated to changes in the predictor variables, once a desired degree of relation has been established.
+
+![0_AqzOn7p--nveVULA](https://user-images.githubusercontent.com/78623027/155774092-b897fd7e-f5e8-455b-91e8-dbd183859f50.png)
+
 Gradient Boosting: 
 Gradient boosting is a type of machine learning technique. The main idea is to set the target variable for the next decision tree model using predictions from the previous models in order to minimize the error and create a better model.
 
+Gradient boosting involves three elements:
+
+* A loss function to be optimized.
+* A weak learner to make predictions.
+* An additive model to add weak learners to minimize the loss function.
+
+
+The following image from Akira-AI shows a visual interpration of Gradient Boosting: 
+
+![akira-ai-gradient-boosting-ml-technique](https://user-images.githubusercontent.com/78623027/155774282-b4c9d364-ccdb-4fa1-a80c-6b661bc49fd4.png)
+
+
 Extreme Gradient Boosting: 
 Extreme Gradient Boosting is similar to gradient boosting, but makes use of regularization parameters, to prevent overfitting.
+
+According to MachinelearningMastery.com Gradient boosting refers to a class of ensemble machine learning algorithms that can be used for classification or regression predictive modeling problems.
+
+Ensembles are constructed from decision tree models. Trees are added one at a time to the ensemble and fit to correct the prediction errors made by prior models. This is a type of ensemble machine learning model referred to as boosting.
+
+Models are fit using any arbitrary differentiable loss function and gradient descent optimization algorithm. This gives the technique its name, “gradient boosting,” as the loss gradient is minimized as the model is fit, much like a neural network.
+
+The following image shows a visual of Extreme Gradient Boosting
+![The-structure-of-extreme-gradient-boosting](https://user-images.githubusercontent.com/78623027/155774538-ec4823c2-0c3e-44dd-9e28-1f5b2b1782d3.png)
+
 
 ```
 import numpy as np
