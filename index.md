@@ -36,8 +36,9 @@ Models are fit using any arbitrary differentiable loss function and gradient des
 The following image shows a visual of Extreme Gradient Boosting
 ![The-structure-of-extreme-gradient-boosting](https://user-images.githubusercontent.com/78623027/155774538-ec4823c2-0c3e-44dd-9e28-1f5b2b1782d3.png)
 
-
 ```
+### Lets import some information as we get started. 
+
 import numpy as np
 import pandas as pd
 from scipy.linalg import lstsq
