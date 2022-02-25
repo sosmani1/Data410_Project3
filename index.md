@@ -203,9 +203,9 @@ print('The Cross-validated Mean Squared Error for LWR is : '+str(np.mean(mse_lwr
 print('The Cross-validated Mean Squared Error for BLWR is : '+str(np.mean(mse_blwr)))
 print('The Cross-validated Mean Squared Error for XGB is : '+str(np.mean(mse_xgb)))
 ```
-The Cross-validated Mean Squared Error for LWR is : 18.84986146382691
-The Cross-validated Mean Squared Error for BLWR is : 17.7551159425555
-The Cross-validated Mean Squared Error for XGB is : 16.71422016914427
+* The Cross-validated Mean Squared Error for LWR is : 18.84986146382691
+* The Cross-validated Mean Squared Error for BLWR is : 17.7551159425555
+* The Cross-validated Mean Squared Error for XGB is : 16.71422016914427
 
 ```
 mae_LWR = mean_absolute_error(ytest,yhat_lwr)
@@ -215,8 +215,8 @@ print("MAE BLWR = ${:,.2f}".format(1000*mae_BLWR))
 mae_XGB = mean_absolute_error(ytest,yhat_xgb)
 print("MAE XGB = ${:,.2f}".format(1000*mae_XGB))
 ```
-MAE LWR = $2,659.55
-MAE BLWR = $2,651.25
-MAE XGB = $2,404.75
+* MAE LWR = $2,659.55
+* MAE BLWR = $2,651.25
+* MAE XGB = $2,404.75
 
 ### XGB is the best method, because the cross-validated MSE is the lowest.
