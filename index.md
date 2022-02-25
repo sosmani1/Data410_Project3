@@ -1,4 +1,6 @@
-# DEFINITIONS
+# Advanced Machine Learning Project 3
+
+## DEFINITIONS
 
 Multivariate Regression Analysis: 
 Multivariate Regression Analysis is when we want to predict a target variable using more than one feature/input variable.
@@ -108,7 +110,7 @@ def lw_reg(X, y, xnew, kern, tau, intercept):
   ```
   import xgboost as xgb
   ```
-  # Import data, use regularization for variable selection:
+## Import data, use regularization for variable selection:
 ```
 # import the data
 housing_prices = pd.read_csv('Boston Housing Prices.csv')
@@ -143,7 +145,7 @@ y = housing_prices['cmedv'].values
 scale = StandardScaler()
 ```
 
-Calculate cross-validated MSE and MAE for lowess, boosted lowess, and xgboost:
+## Calculate cross-validated MSE and MAE for lowess, boosted lowess, and xgboost:
 
 ```
 # we want more nested cross-validations
@@ -189,4 +191,4 @@ MAE LWR = $2,659.55
 MAE BLWR = $2,651.25
 MAE XGB = $2,404.75
 
-XGB is the best method, because the cross-validated MSE is the lowest.
+### XGB is the best method, because the cross-validated MSE is the lowest.
