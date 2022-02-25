@@ -1,15 +1,15 @@
 # Advanced Machine Learning Project 3
 
-## DEFINITIONS
+# *DEFINITIONS*
 
-Multivariate Regression Analysis: 
+# *Multivariate Regression Analysis:* 
 Multivariate Regression Analysis is when we want to predict a target variable using more than one feature/input variable.
 
 As explained by Brillant.org  Multivariate Regression is a method used to measure the degree at which more than one independent variable (predictors) and more than one dependent variable (responses), are linearly related. The method is broadly used to predict the behavior of the response variables associated to changes in the predictor variables, once a desired degree of relation has been established.
 
 ![0_AqzOn7p--nveVULA](https://user-images.githubusercontent.com/78623027/155774092-b897fd7e-f5e8-455b-91e8-dbd183859f50.png)
 
-Gradient Boosting: 
+# *Gradient Boosting:* 
 Gradient boosting is a type of machine learning technique. The main idea is to set the target variable for the next decision tree model using predictions from the previous models in order to minimize the error and create a better model.
 
 Gradient boosting involves three elements:
@@ -24,7 +24,8 @@ The following image from Akira-AI shows a visual interpration of Gradient Boosti
 ![akira-ai-gradient-boosting-ml-technique](https://user-images.githubusercontent.com/78623027/155774282-b4c9d364-ccdb-4fa1-a80c-6b661bc49fd4.png)
 
 
-Extreme Gradient Boosting: 
+# *Extreme Gradient Boosting:* 
+
 Extreme Gradient Boosting is similar to gradient boosting, but makes use of regularization parameters, to prevent overfitting.
 
 According to MachinelearningMastery.com Gradient boosting refers to a class of ensemble machine learning algorithms that can be used for classification or regression predictive modeling problems.
